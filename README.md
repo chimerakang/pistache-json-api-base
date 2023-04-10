@@ -1,4 +1,4 @@
-## __Title: Pistache-JSON-API-prototype-C__
+## __Title: pistache-json-api-base__
 #### Author:
 - Chimera Kang
 
