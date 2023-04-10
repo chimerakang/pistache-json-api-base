@@ -23,6 +23,6 @@ $ docker-compose up
 ## How to test (using curl):
 - Chart - Endpoint /market-data/chart
 ```
-$ curl -X GET http://127.0.0.1:8080/market-data/chart -d '{"providers": ["CBOE"]}'
-$ curl -X GET http://127.0.0.1:8080/market-data/chart -d '{"providers": ["CBOE", "UBS"], "pair": "EUR/GBP", "start" : "2019-10-05 18:00:00", "end": "2020-06-08 21:17:00"}'
+$ curl -X GET http://127.0.0.1:9080/market-data/chart -d '{"providers": ["CBOE"]}'
+$ curl -X GET http://127.0.0.1:9080/market-data/chart -d '{"providers": ["CBOE", "UBS"], "pair": "EUR/GBP", "start" : "2019-10-05 18:00:00", "end": "2020-06-08 21:17:00"}'
 ```
