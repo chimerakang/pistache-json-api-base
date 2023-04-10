@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+
+  testserver:
+#    build: ./docker
+    image: hatice.me/pistache_json_service:1.0
+    restart: always
+    ports:
+      - "9080:9080"
+#    entrypoint: /opt/testserver/build/testserver

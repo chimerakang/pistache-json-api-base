@@ -11,7 +11,7 @@ SRC_RESOURCES = $(SRCDIR)resources/
 
 CC = g++
 
-CFLAGS = -O2 -W -Wall -Wno-unused-parameter -Wno-unused-variable
+CFLAGS = -std=c++17 -O2 -W -Wall -Wno-unused-parameter -Wno-unused-variable
 LIBS = -lpistache -lssl -lcrypto -lpthread
 INCS = -I$(INCDIR) -I$(INC_RAPIDJSON) -I$(INC_RESOURCES)
 

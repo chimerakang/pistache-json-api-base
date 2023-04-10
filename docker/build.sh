@@ -5,8 +5,8 @@ cd $BASEDIR
 
 tar -C ../api -cf api.tar.gz .
 
-docker build --tag palladris:1.0 . 
+docker build --tag hatice.me/pistache_json_service:1.0 . 
 
 rm -f api.tar.gz
 
-docker create --publish 8080:9080 --name palladris palladris:1.0
+#docker create --publish 8080:9080 --name palladris palladris:1.0

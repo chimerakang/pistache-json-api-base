@@ -1,6 +1,6 @@
 ## __Title: Pistache-JSON-API-prototype-C__
 #### Author:
-- Alessandro dos Santos Ferreira
+- Chimera Kang
 
 **NOTE**: This script requires Docker installation ( more info on https://docs.docker.com/engine/install/ ).
 
@@ -18,7 +18,7 @@ $ ./build.sh
 ## How to use:
 - Execute the following command to start the server :
 ```
-$ ./deploy.sh
+$ docker-compose up
 ```
 ## How to test (using curl):
 - Chart - Endpoint /market-data/chart

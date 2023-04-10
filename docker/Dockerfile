@@ -23,6 +23,6 @@ ADD api.tar.gz .
 
 RUN make
 
-EXPOSE 8080
+EXPOSE 9080
 
 CMD ["bin/api"]
